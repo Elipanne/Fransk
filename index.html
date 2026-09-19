@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Et enkelt og tilgjengelig spill for å friske opp franske ord.">
+  <title>Franske ord</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="home-link" id="home-button" type="button" aria-label="Gå til hovedsiden">
+      <span aria-hidden="true">←</span> Hjem
+    </button>
+    <div class="text-size" aria-label="Tekststørrelse">
+      <button id="text-smaller" type="button" aria-label="Mindre tekst">A−</button>
+      <button id="text-larger" type="button" aria-label="Større tekst">A+</button>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <noscript>Du må slå på JavaScript i nettleseren for å bruke spillet.</noscript>
+
+  <script src="vocabulary.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
